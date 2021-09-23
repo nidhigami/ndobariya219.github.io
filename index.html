@@ -1,44 +1,59 @@
-<!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Nikunj Dobariya | Associate Manager at Accenture Australia</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+---
+layout: home
+---
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Nikunj Dobariya</h1>
-				<p>Associate Manager at Accenture Australia<br />
-				Experiance Java and Microservices Enthusiast | Cloud Head</p>
-			</header>
+<div class="container center-align">
+  <div class="avatar">
+    <img
+      src=" {{ site.baseurl }}img/avatar.jpg"
+      class="responsive-img"
+      id="avatar"
+      alt="Nikunj Dobariya Profile Image."
+    />
+  </div>
 
-		<!-- Signup Form 
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Connect With Me" />
-			</form>
-		-->
+  <div class="name">
+    <strong
+      ><span id="target-mark"></span><span id="target"></span
+      ><span id="target-cursor"></span
+    ></strong>
+  </div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/nikunjdobariya" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://www.instagram.com/ndobariya219/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/ndobariya219" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto:ndobariya219@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-			</footer>
+  <div>
+    <h5 id="test1">
+      <span style="color:#929292;">I'm a </span>Associate Manager
+      <span style="color:#929292;">at</span>
+      <span class="hov"><a href="#" target="_blank">Accenture Australia</a>
+      </span>.
+    </h5>
 
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
+    <h5 id="test2">
+      <span style="color:#929292;">I'm a </span>Solution Architect
+      <span style="color:#929292;">and an</span> Open Source Enthusiast,<span
+        style="color:#929292;"
+      >
+        who is always
+      </span>
+      curious to learn and build new things.
+    </h5>
 
-	</body>
-</html>
+    <h5 id="test5">
+      Check out my academic &amp; professional
+      <span class="hov"
+        ><a href="{{ site.baseurl }}resume.html" target="_blank"
+          >Resume</a
+        ></span
+      >.
+    </h5>
+
+    <h5 id="test6">
+      You can reach me at
+      <span class="hov">
+        <a href="http://twitter.com/{{ site.twitter }}" target="_blank"
+          >@{{ site.twitter }}</a>
+      </span>
+       or by <span class="hov"><a href="mailto:{{ site.email}}" target="_blank">email</a></span>.
+    </h5>
+  </div>
+  {% include social.html %}
+</div>

@@ -54,6 +54,7 @@ $(function() {
         },
         filter: function() {
             return $(this).is(":visible");
+            console.log("this code will never called")
         },
     });
 

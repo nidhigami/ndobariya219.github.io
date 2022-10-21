@@ -1,2 +1,2 @@
 # ndobariya219.github.io
-Personal blog and portfolio website...
+Personal blog and portfolio website.
